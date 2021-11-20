@@ -16,7 +16,7 @@ h2 {
 nav ul li {
     text-decoration: none;
 }
-
+#logo img
 #title {
     height: 100%;
     width: 100%;
@@ -25,12 +25,11 @@ nav ul li {
     text-align: center;
 }
 #title h1 {
-    font-family: 'Merriweather', cursive;
+font-family: 'Merriweather', cursive;
 text-align: center;
 font-size: 10vw;
 letter-spacing: 3px;
 color: #000000;
-padding-top: 30px;
 text-decoration: underline;
 }
 #title h2 {
@@ -39,20 +38,23 @@ text-decoration: underline;
 #title .col {        
     padding-top: 0px;
     }
+    nav ul {
+        float: right;
+    }
+
+#logo img{
+    float:left;
+    height: 100px;
+    width:100px;
+}
 #title .img-fluid {
-    width: 100%;
+width: 100%;
 position: relative;
-height: auto;
-/*I took the animation idea from the css hero-image animation tutorial from code institute. I altered some of the parameters for the animation to better suit the page*/
-animation-name: enter-zoom;
-animation-duration: 7s;
-animation-fill-mode: both;
+height: 200px;
+border: 1px black solid;
 }
 #title .btn {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    /*this code was taken from https://stackoverflow.com/questions/6256043/css-position-loading-indicator-in-the-center-of-the-screen user Salim*/
     transform: translate(-50%, -50%);
     color: #000000;
     font-size: 3vw;
@@ -60,7 +62,22 @@ animation-fill-mode: both;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-family: 'Merriweather', cursive;
-    box-shadow: 0 4px 8px 0 rgba(0, 7, 0, 0.699), 0 6px 20px 0 rgba(47, 56, 42, 0.671);
-    max-width: 200px;
+    font-family: 'Merriweather', serif;
     }
+#about {
+    border: 1px black solid;
+    margin-top: 10px;
+}
+#about h3 {
+    font-family:'Merriweather', serif;
+    padding: 10px;
+    color: black;
+    text-decoration: underline;
+    font-size: 6vw;
+}
+#about p {
+    font-family: 'Mohave', serif;
+    color: black;
+    padding: 2px;
+    text-align: center;
+}
