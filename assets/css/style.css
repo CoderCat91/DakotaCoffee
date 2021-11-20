@@ -5,10 +5,16 @@ font-family: 'Merriweather', serif;
 font-family: 'Mohave', sans-serif;
 }
 
-nav h1 {
+
+h1 {
     font-family: 'Merriweather', serif;
     position: fixed;
-    float: left;
+    text-align: center;
+    font: red;
+}
+
+nav ul li {
+    text-decoration: none;
 }
 
 #title {
