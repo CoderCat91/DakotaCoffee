@@ -7,13 +7,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
   $(document).ready(function(){
-    $(".hero-text h1 h3 p").hover(function(){
-      $(".hero-text h1 h3 p").fadeIn("fast", 1.0);
+    $("body").hover(function(){
+      $(".hero-text h1").fadeTo(1.0);
     });
   });
   </script>
 </head>
 <body>
+  <div class="hero-image">
   <div class="hero-text">
     <h1 class="display-1">Dakota Coffee</h1>
     <h3 class="display-6"><i>Wake up to the Wild West</i></h3>
