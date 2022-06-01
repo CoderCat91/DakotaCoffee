@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&family=Roboto+Slab&display=swap');
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text{
+    padding-top: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
+    font-size: 5em;
+    letter-spacing: 0.2em;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+
+p {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    padding-top: 50px;
+  }
+.btn-lg {
+    color: black;
+    margin:0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
