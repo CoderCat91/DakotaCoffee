@@ -1,12 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Mohave:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&family=Roboto+Slab&display=swap');
 
 
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'Dancing Script', cursive;
     font-family: 'Merriweather', serif;
-    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color:white;
 }
 
 /* The hero image */
@@ -25,44 +27,36 @@ body, html {
 }
 
 /* Place text in the middle of the image */
-
+.hero-text{
+    padding-top: 5%;
+}
 
 h1 {
     text-align: center;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
     font-family: 'Merriweather', serif;
-    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 5em;
+    letter-spacing: 0.2em;
   }
 
   h3 {
     text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: 'Mohave', sans-serif;
+    font-family: 'Dancing Script', cursive;
   }
 
 p {
     text-align: center;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: 'Mohave', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    padding-top: 50px;
   }
-a {
-    text-align: center;
+.btn-lg {
+    color: black;
+    margin:0;
     position: absolute;
-    top: 85%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid black;
+
   }
 
